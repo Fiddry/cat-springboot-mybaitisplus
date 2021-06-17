@@ -13,4 +13,5 @@ public class catApplication {
         SpringApplication.run(catApplication.class, args);
     }
 
+    int i;
 }
