@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:49696;DatabaseName=test
+    username: sa
+    password: 88888888
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:/com/example/mappper/xml/*.xml
+server:
+  port: 8181
+  debug: false
