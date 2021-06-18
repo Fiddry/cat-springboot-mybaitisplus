@@ -12,6 +12,4 @@ public class catApplication {
     public static void main(String[] args) {
         SpringApplication.run(catApplication.class, args);
     }
-
-    int i;
 }
